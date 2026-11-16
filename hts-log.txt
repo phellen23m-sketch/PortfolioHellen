@@ -1,0 +1,47 @@
+HTTrack3.51-0 launched on Mon, 09 Nov 2026 11:16:59 at https://webthemesolution.com/respet/ +*.png +*.gif +*.jpg +*.jpeg +*.webp +*.avif +*.svg +*.css +*.js +*.woff2 +*.woff +*.ttf +*.otf +*.mp4 +*.webm -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2%f#f -F "Mozilla/5.0 (compatible; HTTrack/3.x; +https://www.httrack.com/)" -%F "<!-- Mirrored from {url} by HTTrack Website Copier/3.x [XR&CO], {date} -->" -%l "en, *" https://webthemesolution.com/respet/ -O1 "C:\Users\CS 144\Desktop\mi-portafolio-am-hellen-peña" +*.png +*.gif +*.jpg +*.jpeg +*.webp +*.avif +*.svg +*.css +*.js +*.woff2 +*.woff +*.ttf +*.otf +*.mp4 +*.webm -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:18:09	Error: 	"Forbidden" (403) at link https://webthemesolution.com/respet/xmlrpc.php?rsd (from https://webthemesolution.com/respet/)
+11:18:15	Info: 	Retry after error 500 (Internal Server Error) at link https://webthemesolution.com/respet/category/personal/ (from https://webthemesolution.com/respet/)
+11:18:18	Info: 	Retry after error 500 (Internal Server Error) at link https://webthemesolution.com/respet/category/crime/ (from https://webthemesolution.com/respet/)
+11:18:20	Info: 	Retry after error 500 (Internal Server Error) at link https://webthemesolution.com/respet/category/kidnap/ (from https://webthemesolution.com/respet/)
+11:18:22	Info: 	Retry after error 500 (Internal Server Error) at link https://webthemesolution.com/respet/category/advice/ (from https://webthemesolution.com/respet/)
+11:18:26	Error: 	"Not Found" (404) at link https://webthemesolution.com/respet/wp-content/plugins/elementor-webtheme-widget/assets/css/owl.video.play.png (from https://webthemesolution.com/respet/wp-content/plugins/elementor-webtheme-widget/assets/css/owl.carousel.css?ver=7.1.4)
+11:18:30	Warning: 	Moved Permanently for https://webthemesolution.com/respet/?p=138
+11:18:30	Warning: 	File has moved from https://webthemesolution.com/respet/?p=138 to https://webthemesolution.com/respet/portfolio_post_type/138/
+11:18:30	Warning: 	Moved Permanently for https://webthemesolution.com/respet/?p=137
+11:18:30	Warning: 	File has moved from https://webthemesolution.com/respet/?p=137 to https://webthemesolution.com/respet/portfolio_post_type/137/
+11:18:30	Warning: 	Moved Permanently for https://webthemesolution.com/respet/?p=136
+11:18:30	Warning: 	File has moved from https://webthemesolution.com/respet/?p=136 to https://webthemesolution.com/respet/portfolio_post_type/136/
+11:18:30	Warning: 	Moved Permanently for https://webthemesolution.com/respet/?p=132
+11:18:30	Warning: 	File has moved from https://webthemesolution.com/respet/?p=132 to https://webthemesolution.com/respet/portfolio_post_type/compliance-architect/
+11:18:30	Warning: 	Moved Permanently for https://webthemesolution.com/respet/?p=131
+11:18:30	Warning: 	File has moved from https://webthemesolution.com/respet/?p=131 to https://webthemesolution.com/respet/portfolio_post_type/131/
+11:18:30	Warning: 	Moved Permanently for https://webthemesolution.com/respet/?p=130
+11:18:30	Warning: 	File has moved from https://webthemesolution.com/respet/?p=130 to https://webthemesolution.com/respet/portfolio_post_type/legal-strategist/
+11:18:30	Info: 	Retry after error 500 (Internal Server Error) at link https://webthemesolution.com/respet/category/personal/ (from https://webthemesolution.com/respet/)
+11:18:30	Warning: 	Moved Permanently for https://webthemesolution.com/respet/?p=152
+11:18:30	Warning: 	File has moved from https://webthemesolution.com/respet/?p=152 to https://webthemesolution.com/respet/who-can-a-victim-sue-aftera-car-accident/
+11:18:30	Error: 	"Forbidden" (403) at link https://webthemesolution.com/respet/xmlrpc.php (from https://webthemesolution.com/respet/who-can-a-victim-sue-aftera-car-accident/)
+11:18:31	Info: 	Retry after error 500 (Internal Server Error) at link https://webthemesolution.com/respet/category/crime/ (from https://webthemesolution.com/respet/)
+11:18:31	Warning: 	Moved Permanently for https://webthemesolution.com/respet/?p=153
+11:18:31	Warning: 	File has moved from https://webthemesolution.com/respet/?p=153 to https://webthemesolution.com/respet/justice-may-for-you-if-you-are-innocent/
+11:18:31	Info: 	Retry after error 500 (Internal Server Error) at link https://webthemesolution.com/respet/category/kidnap/ (from https://webthemesolution.com/respet/)
+11:18:31	Warning: 	Moved Permanently for https://webthemesolution.com/respet/?p=154
+11:18:31	Warning: 	File has moved from https://webthemesolution.com/respet/?p=154 to https://webthemesolution.com/respet/what-lawyer-can-do-for-you-you-will-it/
+11:18:31	Info: 	Retry after error 500 (Internal Server Error) at link https://webthemesolution.com/respet/category/advice/ (from https://webthemesolution.com/respet/)
+11:18:37	Warning: 	Moved Permanently for https://webthemesolution.com/respet/?p=155
+11:18:37	Warning: 	File has moved from https://webthemesolution.com/respet/?p=155 to https://webthemesolution.com/respet/duis-aute-irure-dolor-in-reprehenderit/
+11:18:37	Error: 	"Not Found" (404) at link https://webthemesolution.com/respet/popper.js (from https://webthemesolution.com/respet/wp-content/themes/respet/assets/js/bootstrap.min.js?ver=5.0.0)
+11:18:37	Error: 	"Internal Server Error" (500) after 2 retries at link https://webthemesolution.com/respet/category/personal/ (from https://webthemesolution.com/respet/)
+11:18:37	Error: 	"Internal Server Error" (500) after 2 retries at link https://webthemesolution.com/respet/category/crime/ (from https://webthemesolution.com/respet/)
+11:18:37	Error: 	"Internal Server Error" (500) after 2 retries at link https://webthemesolution.com/respet/category/kidnap/ (from https://webthemesolution.com/respet/)
+11:18:37	Error: 	"Internal Server Error" (500) after 2 retries at link https://webthemesolution.com/respet/category/advice/ (from https://webthemesolution.com/respet/)
+
+HTTrack Website Copier/3.51-0 mirror complete in 1 minutes 38 seconds : 267 links scanned, 240 files written (21104909 bytes overall) [16282712 bytes received at 166150 bytes/sec], 7567678 bytes transferred using HTTP compression in 140 files, ratio 32%, 17.8 requests per connection
+(8 errors, 20 warnings, 8 messages)

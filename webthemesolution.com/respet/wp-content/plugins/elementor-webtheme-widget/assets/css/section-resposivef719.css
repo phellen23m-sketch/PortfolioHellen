@@ -1,0 +1,718 @@
+/* 
+*webtheme widgets section Responsive css start here 
+*Medium Device : 1366px
+*/
+@media (min-width: 1366px) and (max-width: 1599.98px) {
+
+    .portfolio-details-portfolio .portfolio-text-content {
+        padding: 60px 0 0 0;
+    }
+}
+/* 
+		Medium Device : 1200px
+*/
+@media (min-width: 1200px) and (max-width: 1365.98px) {
+
+    .counter-section.option1 {
+        right: 40px;
+    }
+    .portfolio-details-portfolio .portfolio-text-content {
+        padding: 60px 0 0 0;
+    }
+
+}
+/* =========================================
+				Medium Device : 1170px
+=============================================*/
+@media (min-width: 1170px) and (max-width: 1199.98px) {
+
+    .counter-section.option1 {
+        right: 40px;
+    }
+    .single-flip-box .flip-box-content .flip-box-above {
+        padding: 45px 20px 42px;
+    }
+    .single-flip-box .flip-box-content .flip-box-behind {
+        padding: 47px 20px 68px 20px;
+    }
+    .portfolio-details-portfolio .portfolio-text-content {
+        padding: 50px 0 0 0;
+    }
+    .theme-main-header .theme-main-menu .manu-wrapper .menu-ul li a {
+        padding: 35px 10px;
+    }
+    .header-button {
+        padding: 10px 25px;
+    }
+
+}
+/* ================================================================
+					Medium Device : 1025px
+=================================================================*/
+@media (min-width: 1025px) and (max-width: 1069.98px) {
+
+    .theme-main-header .theme-main-menu .manu-wrapper .menu-ul li a {
+        padding: 35px 10px;
+    }
+    .header-button {
+        padding: 10px 25px;
+    }
+    .counter-section.option1 {
+        right: 40px;
+    }
+    .single-flip-box .flip-box-content .flip-box-above {
+        padding: 45px 20px 42px;
+    }
+    .single-flip-box .flip-box-content .flip-box-behind {
+        padding: 47px 20px 68px 20px;
+    }
+    .main-title-area.option1 .section-title-one h1 {
+        font-size: 50px;
+    }
+    .main-title-area.option1 .section-title-two h1 {
+        font-size: 50px;
+    }
+    .main-title-area.option1 .section-description p {
+        padding: 25px 0 30px 0;
+        width: 100%;
+    }
+    .single-button.option1 .button-content a {
+        padding: 0 25px;
+        line-height: 52px;
+        height: 52px;
+    }
+    .single-button.option2 .button-content a {
+        padding: 0 25px;
+        line-height: 52px;
+        height: 52px;
+    }
+    .service-section.option1 {
+        padding: 45px 10px 41px 10px;
+    }
+    .portfolio-thumb a img {
+        height: 205px;
+    }
+    .testimonial-section.option1 .testimonial-img-desc-content {
+        padding: 54px 15px 58px 20px;
+    }
+    .single-blog-post-content .blog-post-img img {
+        height: 170px;
+        width: 300px;
+    }
+    .single-blog-post-content .blog-post-text-content {
+        padding: 0 0 0 30px;
+    }
+    .portfolio-details-portfolio .portfolio-text-content {
+        padding: 50px 0 0 0;
+    }
+ 
+ }
+/* ====================================================
+			Medium Device : 992px
+=======================================================*/
+@media (min-width: 992px) and (max-width: 1024.98px) {
+
+    .theme-main-header .theme-main-menu .manu-wrapper .menu-ul li a {
+        padding: 35px 10px;
+    }
+    .header-button {
+        padding: 10px 25px;
+    }
+    .main-title-area.option1 .section-title-one h1 {
+        font-size: 45px;
+    }
+    .main-title-area.option1 .section-title-two h1 {
+        font-size: 45px;
+    }
+    .counter-section.option1 {
+        right: 22%;
+    }
+    .portfolio-thumb a img {
+        height: 200px;
+    }
+    .single-blog-post-content {
+        display: block;
+    }
+    .single-blog-post-content .blog-post-img img {
+        height: 300px;
+        width: 100%;
+    }
+    .single-blog-post-content .blog-post-text-content {
+        padding: 20px 30px 30px 20px;
+    }
+    .portfolio-details-portfolio .portfolio-text-content {
+        padding: 50px 0 0 0;
+    }
+
+}
+
+/* =========================================================
+				Medium Device : 768px
+===========================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .main-title-area.option1 .section-subtitle h3 {
+        font-size: 16px;
+    }
+    .main-title-area.option1 .section-title-one h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .main-title-area.option1 .section-title-two h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .main-title-area.option3 .section-title-two h1 {
+        font-size: 35px;
+    }
+    .main-title-area.option3 .section-title-one h1 {
+        font-size: 35px;
+    }
+    .main-title-area.option2 .section-title-one h1 {
+        font-size: 35px;
+    }
+    .single-button.option1 .button-content a {
+        padding: 0 30px;
+        line-height: 50px;
+        height: 50px;
+    }
+    .single-button.option2 .button-content a {
+        padding: 0 30px;
+        line-height: 50px;
+        height: 50px;
+    }
+    .counter-section.option1 {
+        right: 14%;
+    }
+    .portfolio-thumb a img {
+        height: 200px;
+    }
+    .icon-box-title h2 {
+        font-size: 20px;
+    }
+    .single-flip-box .flip-box-content .flip-box-above {
+        padding: 45px 18px 40px;
+    }
+    .counter-section.option1 .calculate-number {
+        font-size: 42px;
+    }
+    .counter-section.option1 .conter-plus {
+        font-size: 42px;
+    }
+    .service-section.option2:before {
+        display: none;
+    }
+    .service-section.option2:after {
+        display: none;
+    }
+    .resume-section:before {
+        display: none;
+    }
+    .single-blog-post-content {
+        display: block;
+    }
+    .single-blog-post-content .blog-post-img img {
+        height: 200px;
+        width: 100%;
+    }
+    .single-blog-post-content .blog-post-text-content {
+        padding: 20px 0 30px 20px;
+    }
+    .single-blog-post-content ul.post-categories li a {
+        font-size: 14px;
+    }
+
+}
+/* ================================================
+			small Device : 600px
+=====================================================*/
+@media (min-width: 600px) and (max-width: 767.98px) {
+
+    .main-title-area.option1 .section-subtitle h3 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .main-title-area.option1 .section-title-one h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .main-title-area.option1 .section-title-two h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .single-button.option1 .button-content a {
+        padding: 0 30px;
+        line-height: 50px;
+        height: 50px;
+    }
+    .single-button.option2 .button-content a {
+        padding: 0 30px;
+        line-height: 50px;
+        height: 50px;
+        margin: 25px 0 0 0;
+    }
+    .main-title-area.option3 .section-title-two h1 {
+        font-size: 32px;
+    }
+    .main-title-area.option3 .section-title-one h1 {
+        font-size: 32px;
+    }
+    .main-title-area.option2 .section-title-one h1 {
+        font-size: 32px;
+    }
+    .counter-section.option1 .calculate-number {
+        font-size: 35px;
+    }
+    .counter-section.option1 .conter-plus {
+        font-size: 35px;
+    }
+    .service-section.option2:before {
+        display: none;
+    }
+    .service-section.option2:after {
+        display: none;
+    }
+    .resume-section:before {
+        display: none;
+    }
+    .single-blog-post-content {
+        display: block;
+        padding: 40px 40px 10px 40px;
+    }
+    .single-blog-post-content .blog-post-img img {
+        height: 270px;
+        width: 100%;
+    }
+    .single-blog-post-content .blog-post-text-content {
+        padding: 20px 0 30px 20px;
+    }
+    .single-blog-post-content ul.post-categories li a {
+        font-size: 14px;
+    }
+    .portfolio-category-tab-menu ul li {
+        margin-bottom: 15px;
+    }
+    .portfolio-thumb a img {
+        height: 300px;
+    }
+    .portfolio-text-content {
+        top: 330px;
+        padding: 110px 0 0 0;
+    }
+
+}
+/* =============================================
+				small Device : 450px
+===============================================*/
+@media (min-width: 450px) and (max-width: 599.98px) {
+
+    .main-title-area.option1 .section-subtitle h3 {
+        font-size: 16px;
+    }
+    .main-title-area.option1 .section-title-one h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .main-title-area.option1 .section-title-two h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .single-button.option1 .button-content a {
+        padding: 0 30px;
+        font-size: 15px;
+        line-height: 50px;
+        height: 50px;
+    }
+    .single-button.option2 .button-content a {
+        padding: 0 30px;
+        font-size: 15px;
+        line-height: 50px;
+        height: 50px;
+    }
+    .main-title-area.option3 .section-title-two h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .main-title-area.option3 .section-title-one h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .main-title-area.option2 .section-title-one h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .counter-section.option1 .calculate-number {
+        font-size: 32px;
+    }
+    .counter-section.option1 .conter-plus {
+        font-size: 32px;
+    }
+    .service-section.option2:before {
+        display: none;
+    }
+    .service-section.option2:after {
+        display: none;
+    }
+    .resume-section:before {
+        display: none;
+    }
+    .single-blog-post-content {
+        display: block;
+    }
+    .single-blog-post-content .blog-post-img img {
+        height: 200px;
+        width: 100%;
+    }
+    .single-blog-post-content .blog-post-text-content {
+        padding: 20px 0 30px 20px;
+    }
+    .single-blog-post-content ul.post-categories li a {
+        font-size: 14px;
+    }
+    .counter-section.option1 {
+        right: 5%;
+    }
+    .testimonial-section.option1 .testimonial-img-desc-content {
+        padding: 30px 20px 30px 20px;
+    }
+
+
+}
+/* =========================================
+		small Device : 300px
+==========================================*/
+@media (min-width: 300px) and (max-width: 449.98px) {
+
+    .main-title-area.option1 .section-subtitle h3 {
+        font-size: 15px;
+    }
+    .main-title-area.option1 .section-title-one h1 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .main-title-area.option1 .section-title-two h1 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .main-title-area.option1 span.section-highlight-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .single-button.option1 .button-content a {
+        padding: 0 30px;
+        font-size: 15px;
+        line-height: 50px;
+        height: 50px;
+    }
+    .single-button.option2 .button-content a {
+        padding: 0 30px;
+        font-size: 15px;
+        line-height: 50px;
+        height: 50px;
+        margin: 20px 0 0 0;
+    }
+    .main-title-area.option3 .section-title-two h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .main-title-area.option3 .section-title-one h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .main-title-area.option2 .section-title-one h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .counter-section.option1 .calculate-number {
+        font-size: 30px;
+    }
+    .counter-section.option1 .conter-plus {
+        font-size: 30px;
+    }
+    .service-section.option2:before {
+        display: none;
+    }
+    .service-section.option2:after {
+        display: none;
+    }
+    .resume-section:before {
+        display: none;
+    }
+    .single-blog-post-content {
+        display: block;
+    }
+    .single-blog-post-content .blog-post-img img {
+        height: 155px;
+        width: 100%;
+    }
+    .single-blog-post-content .blog-post-title h1 a {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .single-blog-post-content .blog-post-button a {
+        font-size: 15px;
+        line-height: 26px;
+        padding: 6px 20px;
+    }
+    .single-blog-post-content .blog-post-text-content {
+        padding: 20px 0 30px 20px;
+    }
+    .single-blog-post-content ul.post-categories li a {
+        font-size: 14px;
+    }
+    .service-section.option1 .service-title h1 {
+        padding: 10px 0 10px 0;
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .counter-section.option1 {
+        width: 225px;
+        height: 110px;
+        top: -140px;
+        right: 15px;
+        padding: 13px 0 0 25px;
+    }
+    .single-button.option3 .button-content a {
+        padding: 0 30px;
+        font-size: 15px;
+        line-height: 48px;
+        height: 48px;
+    }
+    .single-flip-box .flip-box-content .flip-box-above {
+        padding: 45px 15px 40px;
+    }
+    .single-flip-box .flip-box-content .flip-box-behind {
+        padding: 47px 15px 68px 15px;
+    }
+    .service-section.option2 .service-text-content {
+        padding: 23px 10px 26px 15px;
+    }
+    .service-section.option2 .service-title h1 {
+        font-size: 18px;
+    }
+    .portfolio-category-tab-menu ul li {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .portfolio-thumb a img {
+        height: 180px;
+    }
+    .portfolio-text-content {
+        padding: 56px 0 0 0;
+    }
+    .portfolio-title h1 a {
+        font-size: 20px;
+    }
+    .portfolio-text-content a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .testimonial-section.option1 .testimonial-image {
+        float: inherit;
+        margin: 0 0 20px 0;
+    }
+    .testimonial-section.option1 .testimonial-img-desc-content {
+        padding: 30px 15px 30px 15px;
+    }
+    .testimonial-section.option1 .author-image {
+        padding: 35px 15px 0 25px;
+    }
+    .testimonial-section.option1 .testimonial-img-desc-content:before {
+        left: 40px;
+    }
+    .main-form-section input {
+        font-size: 15px;
+        height: 48px;
+        line-height: 48px;
+    }
+    .main-form-section select {
+        font-size: 15px;
+        height: 48px;
+        line-height: 48px;
+    }
+    .main-form-section textarea {
+        height: 100px !important;
+    }
+    .main-form-section .contact-button input {
+        height: 48px;
+        width: 180px;
+        line-height: 48px;
+        font-size: 15px;
+    }
+
+}
+/* ==================================================
+			small Device : 0-300px
+======================================================*/
+@media (min-width: 0.1px) and (max-width: 299.98px) {
+
+    .main-title-area.option1 .section-subtitle h3 {
+        font-size: 15px;
+    }
+    .main-title-area.option1 .section-title-one h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .main-title-area.option1 .section-title-two h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .main-title-area.option1 span.section-highlight-title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .single-button.option1 .button-content a {
+        padding: 0 30px;
+        font-size: 15px;
+        line-height: 50px;
+        height: 50px;
+    }
+    .single-button.option2 .button-content a {
+        padding: 0 30px;
+        font-size: 15px;
+        line-height: 50px;
+        height: 50px;
+    }
+    .main-title-area.option3 .section-title-two h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .main-title-area.option3 .section-title-one h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .main-title-area.option2 .section-title-one h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .counter-section.option1 .calculate-number {
+        font-size: 30px;
+    }
+    .counter-section.option1 .conter-plus {
+        font-size: 30px;
+    }
+    .service-section.option2:before {
+        display: none;
+    }
+    .service-section.option2:after {
+        display: none;
+    }
+    .resume-section:before {
+        display: none;
+    }
+    .single-blog-post-content {
+        display: block;
+    }
+    .single-blog-post-content .blog-post-img img {
+        height: 155px;
+        width: 100%;
+    }
+    .single-blog-post-content .blog-post-title h1 a {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .single-blog-post-content .blog-post-button a {
+        font-size: 15px;
+        line-height: 26px;
+        padding: 6px 20px;
+    }
+    .single-blog-post-content .blog-post-text-content {
+        padding: 20px 0 30px 20px;
+    }
+    .single-blog-post-content ul.post-categories li a {
+        font-size: 14px;
+    }
+    .service-section.option1 .service-title h1 {
+        padding: 10px 0 10px 0;
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .counter-section.option1 {
+        width: 225px;
+        height: 110px;
+        top: -140px;
+        right: 15px;
+        padding: 13px 0 0 25px;
+    }
+    .single-button.option3 .button-content a {
+        padding: 0 30px;
+        font-size: 15px;
+        line-height: 48px;
+        height: 48px;
+    }
+    .single-flip-box .flip-box-content .flip-box-above {
+        padding: 45px 15px 40px;
+    }
+    .single-flip-box .flip-box-content .flip-box-behind {
+        padding: 47px 15px 68px 15px;
+    }
+    .service-section.option2 .service-text-content {
+        padding: 23px 10px 26px 15px;
+    }
+    .service-section.option2 .service-title h1 {
+        font-size: 18px;
+    }
+    .portfolio-category-tab-menu ul li {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .portfolio-thumb a img {
+        height: 180px;
+    }
+    .portfolio-text-content {
+        padding: 56px 0 0 0;
+    }
+    .portfolio-title h1 a {
+        font-size: 20px;
+    }
+    .portfolio-text-content a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .testimonial-section.option1 .testimonial-image {
+        float: inherit;
+        margin: 0 0 20px 0;
+    }
+    .testimonial-section.option1 .testimonial-img-desc-content {
+        padding: 30px 15px 30px 15px;
+    }
+    .testimonial-section.option1 .author-image {
+        padding: 35px 15px 0 25px;
+    }
+    .testimonial-section.option1 .testimonial-img-desc-content:before {
+        left: 40px;
+    }
+    .main-form-section input {
+        font-size: 15px;
+        height: 48px;
+        line-height: 48px;
+    }
+    .main-form-section select {
+        font-size: 15px;
+        height: 48px;
+        line-height: 48px;
+    }
+    .main-form-section textarea {
+        height: 100px !important;
+    }
+    .main-form-section .contact-button input {
+        height: 48px;
+        width: 180px;
+        line-height: 48px;
+        font-size: 15px;
+    }
+    .go-to-top {
+        right: 20px;
+        bottom: 20px;
+        font-size: 13px;
+        border-radius: 15px;
+        width: 120px;
+        height: 30px;
+        line-height: 28px;
+    }
+
+
+
+
+
+}

@@ -1,0 +1,1884 @@
+/*!
+* WebTheme widgets section style css start here
+*Marque Animation Css Start here
+*/
+.marque-section {
+    position: relative;
+    --duration: 40s;
+    --gap: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    gap:0;
+}
+.marque-section .marque-content h1 {
+    margin: 0;
+    color: #1a1a1a;
+    font-size: 50px;
+    line-height: 70px;
+}
+.marque-section .marque-text-animate {
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    gap: 0px;
+    min-width: 100%;
+    -webkit-animation: text-animate 20s linear infinite;
+    animation: text-animate 20s linear infinite;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+}
+.marque-section .marque-text-animate:hover {
+    animation: inherit;
+}
+@-webkit-keyframes text-animate {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-100% - var(--gap)));
+        transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+.marque-section .marque-text-animate h1 img {
+    animation: img_circle_rotate 15s linear infinite;
+    padding: 0 20px 0 20px;
+    margin: 0 0 0 13px;
+}
+@keyframes img_circle_rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+/*   Marque option 2   */
+.marque-section.option2 .marque-text-animate {
+    animation: text-animate-2 25s infinite linear;
+    transition:0.5s;
+}
+@keyframes text-animate-2 {
+    from {
+        transform: translateX(-50%)
+    }
+    to {
+        transform: translateX(0%)
+    }
+}
+.marque-section.option2 .marque-text-animate h1 img {
+    animation: img_circle_rotate2 10s linear infinite;
+    padding: 0 20px 0 20px;
+    margin: 0 0 0 13px;
+}
+@keyframes img_circle_rotate2 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+/*   Marque css end  */
+
+/* ======================  Banner Section Title Css Start here  =========================== */
+
+.banner-section {
+  background: #d5d5d5;
+  width: 100%;
+  height: 400px;
+  padding: 100px 0 100px 100px;
+}
+
+/*=====================     Brand section css start here  =======================  */
+.brand-section {
+    padding: 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 0 30px 0;
+}
+
+/*==================    button section css start here  =====================  */
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+    height: 20px;
+    width: auto;
+}
+
+/*   single Button css option 1  */
+
+.single-button.option1 .button-content a {
+  display: inline-block;
+  background: #B59A6D;
+  padding: 0 40px;
+  font-size: 16px;
+  line-height: 55px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Mulish";
+  text-align: center;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #B59A6D;
+  position: relative;
+  z-index: 1;
+  transition: 0.4s;
+}
+.single-button.option1  .button-content a:hover {
+  color:#B59A6D;
+  border: 1px solid #fff;
+}
+.single-button.option1 .button-content a:before {
+  background: #fff;
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:0;
+  z-index: -1;
+  transition:0.4s;
+  border-radius: 5px;
+}
+.single-button.option1 .button-content a:hover:before {
+  width:100%;
+}
+.single-button.option1 .button-content a i {
+  padding: 0 0 0 5px;
+  position: relative;
+  top: 0;
+  font-size: 15px;
+  color: #fff;
+  transition:0.4s;
+}
+.single-button.option1 .button-content a:hover i {
+  color: #B59A6D;
+}
+.button-content a svg {
+    height: 15px;
+}
+
+/*   single Button css option 2  */
+
+.single-button.option2 .button-content a {
+  display: inline-block;
+  background: transparent;
+  padding: 0 40px;
+  font-size: 16px;
+  line-height: 55px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Mulish";
+  text-align: center;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  position:relative;
+  z-index: 1;
+  transition:0.4s;
+}
+.single-button.option2  .button-content a:hover {
+  color:#fff;
+  border: 1px solid #B59A6D;
+}
+.single-button.option2 .button-content a:before {
+  background: #B59A6D;
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:0;
+  z-index: -1;
+  transition:0.4s;
+  border-radius: 5px;
+}
+.single-button.option2 .button-content a:hover:before {
+  width:100%;
+}
+.single-button.option2 .button-content a i {
+  padding: 0 0 0 5px;
+  position: relative;
+  top: 0;
+  font-size: 15px;
+  color: #fff;
+}
+
+/*   single Button css option 3  */
+
+.single-button.option3 .button-content a {
+  display: inline-block;
+  background: #B59A6D;
+  padding: 0 40px;
+  font-size: 16px;
+  line-height: 55px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Mulish";
+  text-align: center;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #B59A6D;
+  position: relative;
+  z-index: 1;
+  transition: 0.4s;
+}
+.single-button.option3  .button-content a:hover {
+  color:#B59A6D;
+  border: 1px solid #B59A6D;
+}
+.single-button.option3 .button-content a:before {
+  background: #fff;
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:0;
+  z-index: -1;
+  transition:0.4s;
+  border-radius: 4px;
+}
+.single-button.option3 .button-content a:hover:before {
+  width:100%;
+}
+.single-button.option3 .button-content a i {
+  padding: 0 0 0 5px;
+  position: relative;
+  top: 0;
+  font-size: 15px;
+  color: #fff;
+  transition:0.4s;
+}
+.single-button.option3 .button-content a:hover i {
+  color: #B59A6D;
+}
+/*  =====================  Faq section css start here  ========================= */
+
+.accordion-content li {
+    position: relative;
+    margin-bottom: 20px;
+    list-style: none;
+    z-index: 1;
+}
+.accordion-content li p {
+    display: none;
+    padding: 17px 25px 3px;
+    color: #7a7a7a;
+    font-size: 16px;
+}
+.accordion-content a {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    display: inline-grid;
+    cursor: pointer;
+    color: #1a1a1a;
+    padding: 10px 20px 10px 30px;
+    font-size: 20px;
+    background: #F5F6F8;
+    font-weight: 500;
+}
+a.active {
+    color: #fff;
+    background: #b59a6d;
+}
+a.active:hover {
+    color: #fff;
+}
+.accordion-content a:after {
+    width: 10px;
+    height: 2px;
+    background: #b59a6d;
+    position: absolute;
+    right: 24px;
+    content: " ";
+    top: 50%;
+    transition:0.3s;
+    transform: translate(-50%, -50%);
+}
+.accordion-content a:before {
+    width: 2px;
+    height: 10px;
+    background: #b59a6d;
+    position: absolute;
+    right: 32px;
+    content: " ";
+    top: 50%;
+    transform: rotate(0);
+    transition: all 0.2s ease-in-out;
+    transform: translate(-50%, -50%);
+}
+.accordion-content li p {
+    display: none;
+    font-size: 16px;
+    color: #7a7a7a;
+    padding: 23px 0 23px 30px;
+    background: #fff;
+}
+a.active:after {
+    transition: 0.3s;
+    background: #fff;
+    transform: translate(-50%, -50%);
+}
+a.active:before {
+ display: none;
+}
+
+/*=================   Call to action section css start here =============== */
+
+.single-call-to-action {
+    text-align: center;
+    padding: 50px;
+    background: #efefef;
+    border-radius: 10px;
+}
+.call-video-button {
+    display: inline-block;
+    background: #b59a6d;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+}
+.call-video-link a {
+    color: #fff;
+    font-size: 30px;
+}
+.call-action-title h3 {
+    padding: 20px 0 0 0;
+    font-size: 20px;
+}
+.call-action-title h1 {
+    padding: 20px 0 20px 0;
+    font-size: 40px;
+}
+.call-action-description p {
+    font-size: 18px;
+    color: #7a7a7a;
+    padding: 0 0 30px 0;
+}
+.call-action-button a {
+    background: #7a7a7a;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 17px;
+}
+
+/* ==================   case study post type css start here ===============*/
+
+.single-case-study-post-type .case-study-thumb a img {
+  line-height: 0;
+  border-radius: 10px 10px 0 0;
+}
+.single-case-study-post-type .case-study-title h1 a {
+  font-size: 25px;
+  line-height: 35px;
+  color: #1a1a1a;
+  display: inline-block;
+  transition: 0.5s;
+}
+.single-case-study-post-type .case-study-content {
+  padding: 20px 0 20px 30px;
+  background: #b59a6d;
+  border-radius: 0 0 10px 10px;
+}
+
+
+/* ==================   Circle Progress css start here ===============*/
+
+.single-circle-progress {
+    display: inline-block;
+    position: relative;
+}
+.single-circle-progress h2 {
+    text-align: left;
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+    left: 15px;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 0;
+}
+.circle-progress-content {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  background: transparent;
+  display: inline-block;
+  position: relative;
+}
+.circle-progress-content:after {
+    content: "";
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    border: 6px solid #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.circle-progress-content > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.circle-progress-content .circle-progress-site-2 {
+  left: 0;
+}
+.circle-progress-content .circle-progress-graph {
+    width: 90%;
+    height: 90%;
+    background: none;
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+    border-color: #1a1a1a;
+}
+.circle-progress-content .circle-progress-site-2 .circle-progress-graph {
+  left: 100%;
+  border-top-right-radius: 75px;
+  border-bottom-right-radius: 75px;
+  border-left: 0;
+  transform-origin: center left;
+}
+.circle-progress-content .circle-progress-site-1 {
+  right: 0;
+}
+.circle-progress-content .circle-progress-site-1 .circle-progress-graph {
+    left: -96%;
+    border-top-left-radius: 75px;
+    border-bottom-left-radius: 75px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+}
+.circle-progress-content .circle-progress-value {
+    display: flex;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+    line-height: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+.circle-progress-content .circle-progress-value span {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* Circle progress animation */
+.circle-progress-content[data-percentage="10"] .circle-progress-site-1 .circle-progress-graph {
+  animation: progress-loding-1 1.5s linear forwards;
+}
+.circle-progress-content[data-percentage="10"] .circle-progress-site-2 .circle-progress-graph {
+  animation: 0;
+}
+.circle-progress-content[data-percentage="20"] .circle-progress-site-1 .circle-progress-graph {
+  animation: progress-loding-2 1.5s linear forwards;
+}
+.circle-progress-content[data-percentage="20"] .circle-progress-site-2 .circle-progress-graph {
+  animation: 0;
+}
+.circle-progress-content[data-percentage="30"] .circle-progress-site-1 .circle-progress-graph {
+  animation: progress-loding-3 1.5s linear forwards;
+}
+.circle-progress-content[data-percentage="30"] .circle-progress-site-2 .circle-progress-graph {
+  animation: 0;
+}
+.circle-progress-content[data-percentage="40"] .circle-progress-site-1 .circle-progress-graph {
+  animation: progress-loding-4 1.5s linear forwards;
+}
+.circle-progress-content[data-percentage="40"] .circle-progress-site-2 .circle-progress-graph {
+  animation: 0;
+}
+.circle-progress-content[data-percentage="50"] .circle-progress-site-1 .circle-progress-graph {
+  animation: progress-loding-5 1.5s linear forwards;
+}
+.circle-progress-content[data-percentage="50"] .circle-progress-site-2 .circle-progress-graph {
+  animation: 0;
+}
+.circle-progress-content[data-percentage="60"] .circle-progress-site-1 .circle-progress-graph {
+  animation: progress-loding-5 1.5s linear forwards;
+}
+.circle-progress-content[data-percentage="60"] .circle-progress-site-2 .circle-progress-graph {
+  animation: progress-loding-1 1.5s linear forwards 1.5s;
+}
+.circle-progress-content[data-percentage="70"] .circle-progress-site-1 .circle-progress-graph {
+  animation: progress-loding-5 1.5s linear forwards;
+}
+.circle-progress-content[data-percentage="70"] .circle-progress-site-2 .circle-progress-graph {
+  animation: progress-loding-2 1.5s linear forwards 1.5s;
+}
+.circle-progress-content[data-percentage="80"] .circle-progress-site-1 .circle-progress-graph {
+  animation: progress-loding-5 1.5s linear forwards;
+}
+.circle-progress-content[data-percentage="80"] .circle-progress-site-2 .circle-progress-graph {
+  animation: progress-loding-3 1.5s linear forwards 1.5s;
+}
+.circle-progress-content[data-percentage="90"] .circle-progress-site-1 .circle-progress-graph {
+  animation: progress-loding-5 1.5s linear forwards;
+}
+.circle-progress-content[data-percentage="90"] .circle-progress-site-2 .circle-progress-graph {
+  animation: progress-loding-4 1.5s linear forwards 1.5s;
+}
+.circle-progress-content[data-percentage="100"] .circle-progress-site-1 .circle-progress-graph {
+  animation: progress-loding-5 1.5s linear forwards;
+}
+.circle-progress-content[data-percentage="100"] .circle-progress-site-2 .circle-progress-graph {
+  animation: progress-loding-5 1.5s linear forwards 1.5s;
+}
+
+@keyframes progress-loding-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(36);
+    transform: rotate(36deg);
+  }
+}
+@keyframes progress-loding-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(72);
+    transform: rotate(72deg);
+  }
+}
+@keyframes progress-loding-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(108);
+    transform: rotate(108deg);
+  }
+}
+@keyframes progress-loding-4 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(144);
+    transform: rotate(144deg);
+  }
+}
+@keyframes progress-loding-5 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180);
+    transform: rotate(180deg);
+  }
+}
+
+/*  =================    Counter Section CSS   ==================  */
+
+.counter-section {
+	position: relative;
+  transition: .5s;
+}
+.counter-section.option1 {
+    width: 302px;
+    height: 144px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    top: -177px;
+    right: 85px;
+    padding: 32px 0 0 50px;
+    z-index: 4;
+}
+.counter-section.option1 .counter-icon {
+  float: left;
+  padding: 0 20px 0 0;
+  position: relative;
+  top: 12px;
+}
+.counter-section .counter-icon svg {
+  height: 40px;
+  transition: .5s;
+  display: inline-block;
+  color: #1a1a1a;
+}
+.counter-section.option1 .calculate-number {
+  display: inline-block;
+  margin: 0;
+  font-size: 48px;
+  line-height: 48px;
+  color: #1a1a1a;
+  font-weight: 700;
+  font-family: "Noto Serif";
+}
+.counter-section.option1 .counter-plus {
+  display: inline-block;
+  margin: 0;
+  font-size: 48px;
+  line-height: 48px;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+.counter-section.option1 .counter-title h1 {
+  letter-spacing: 0;
+  margin-top: 6px;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1a1a1a;
+  font-weight: 400;
+  font-family: "Mulish";
+}
+
+/* ======================  Feature Box Css Start here  =========================== */
+
+.single-feature-box {
+	text-align: center;
+	z-index: 1;
+	padding: 38px 30px 18px;
+	border-radius: 5px;
+	background: #fff;
+  transition: .5s;
+  position: relative;
+  overflow: hidden;
+}
+.single-feature-box .feature-title h1 {
+	font-size: 30px;
+	font-weight: 600;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+	margin: 15px 0 15px;
+}
+.single-feature-box .feature-description {
+  font-weight: 400;
+	margin-bottom: 20px;
+	transition: .5s;
+}
+.single-feature-box .feature-icon{
+	display:inline-block;
+	position:relative;
+  margin-bottom: 10px;
+}
+.single-feature-box .feature-icon svg {
+    display: inline-block;
+    color: #fff;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+/* ======================  Flip Box Css Start here  =========================== */
+
+.single-flip-box .flip-box-content {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: .5s;
+}
+.single-flip-box .flip-box-content .flip-box-above {
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  text-align: center;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  transition: .5s;
+  border-radius: 5px;
+  padding: 45px 25px 40px;
+  background: #fff;
+  position: relative;
+  bottom: 0;
+  z-index: 1;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+}
+.single-flip-box .flip-box-content:hover .flip-box-above {
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+}
+.single-flip-box .flip-box-content .flip-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #ffffff;
+  border: 1px solid #b59a6d;
+  text-align: center;
+  line-height: 90px;
+  margin: auto;
+}
+.single-flip-box .flip-box-content .above-title h1 {
+  font-size: 22px;
+  line-height: 28px;
+  color: #1a1a1a;
+  font-weight: bold;
+  font-family: "Noto Serif";
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+.single-flip-box .flip-box-content .above-description p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #616161;
+  font-weight: 400;
+  font-family: "Mulish";
+  text-align: center;
+  margin: 0;
+}
+.single-flip-box .flip-box-content .flip-box-behind{
+  padding: 47px 25px 68px 25px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  text-align: center;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  transition: .5s;
+  -webkit-transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
+}
+.single-flip-box .flip-box-content:hover .flip-box-behind {
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+}
+.single-flip-box .flip-box-content .flip-box-behind:before {
+  border-radius: 5px;
+  background: rgb(181, 154, 109, 0.9);
+  z-index: -1;
+  content:"";
+  top:0;
+  left: 0;
+  height: 100%;
+  width:100%;
+  position: absolute;
+}
+.single-flip-box .flip-box-content .behind-title h1 {
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Noto Serif";
+  text-align: center;
+}
+.single-flip-box .flip-box-content .behind-description p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fafafa;
+  font-weight: 400;
+  font-family: "Mulish";
+  text-align: center;
+  padding: 17px 0 37px 0;
+  margin: 0;
+}
+.single-flip-box .flip-box-content a.behind-btn {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Mulish";
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 16px 30px 16px 30px;
+}
+.single-flip-box .flip-box-content a.behind-btn i {
+  font-size: 15px;
+  color: #fff;
+  padding: 0 0 0 5px;
+  top: 1px;
+  position: relative;
+}
+
+/* ======================  Heading Title Css Start here  =========================== */
+.single-heading {
+  width: 40px;
+  height: 297px;
+  border-radius: 10px 0 0 10px;
+  background-color: #b59a6d;
+  text-align: center;
+}
+.single-heading .heading-title {
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Mulish";
+  padding: 50px 0 0 0;
+}
+
+/* ======================  Section Title Css Start here  =========================== */
+/*      title css option 2      */
+.main-title-area.option1 .section-subtitle h3 {
+  font-size: 18px;
+  line-height: 55px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Noto Serif";
+  position: relative;
+  display: inline-block;
+}
+.main-title-area.option1 .section-subtitle h3:before {
+  content: "";
+  position: absolute;
+  right: -42px;
+  top: 28px;
+  height: 2px;
+  width: 30px;
+  background: #fff;
+  border-radius: 1px;
+}
+.main-title-area.option1 .section-title-one h1 {
+  font-size: 55px;
+  line-height: 60px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Noto Serif";
+}
+.main-title-area.option1 .section-title-two h1 {
+  font-size: 55px;
+  line-height: 60px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Noto Serif";
+}
+.main-title-area.option1 span.section-highlight-title {
+  font-size: 55px;
+  line-height: 60px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Noto Serif";
+}
+.main-title-area.option1 .section-description p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Mulish";
+  padding: 25px 0 15px 0;
+  margin: 0;
+  width: 85%;
+}
+
+/*      title css option 2      */
+
+.main-title-area.option2 .section-subtitle h3 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #b59a6d;
+  font-weight: 500;
+  font-family: "Noto Serif";
+  position: relative;
+  display: inline-block;
+  margin: 0 0 10px 0;
+}
+.main-title-area.option2 .section-subtitle h3:before {
+  content: "";
+  position: absolute;
+  right: -42px;
+  top: 15px;
+  height: 2px;
+  width: 30px;
+  background: #b59a6d;
+  border-radius: 1px;
+}
+.main-title-area.option2 .section-title-one h1 {
+  font-size: 40px;
+  line-height: 50px;
+  color: #1a1a1a;
+  font-weight: 700;
+  font-family: "Noto Serif";
+  margin: 0;
+  padding: 0 0 28px 0;
+}
+.main-title-area.option2 .section-description p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #7a7a7a;
+  font-weight: 400;
+  font-family: "Mulish";
+  padding: 0;
+  margin: 0 0 4px 0;
+}
+
+/*      title css option 3     */
+.main-title-area.option3 .section-subtitle h3 {
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 55px;
+  color: #b59a6d;
+  font-weight: 500;
+  font-family: "Noto Serif";
+}
+.main-title-area.option3 .section-subtitle h3:before {
+  content: "";
+  position: absolute;
+  right: -42px;
+  top: 28px;
+  height: 2px;
+  width: 30px;
+  background: #b59a6d;
+  border-radius: 1px;
+}
+.main-title-area.option3 .section-subtitle h3:after {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: 28px;
+  height: 2px;
+  width: 30px;
+  background: #b59a6d;
+  border-radius: 1px;
+}
+.main-title-area.option3 .section-title-one h1 {
+  font-size: 40px;
+  line-height: 50px;
+  color: #1a1a1a;
+  font-weight: 700;
+  font-family: "Noto Serif";
+  text-align: center;
+}
+.main-title-area.option3 .section-title-two h1 {
+  font-size: 40px;
+  line-height: 50px;
+  color: #1a1a1a;
+  font-weight: 700;
+  font-family: "Noto Serif";
+  text-align: center;
+}
+
+/* ======================  Icon Box Css Start here  =========================== */
+.small-img {
+  float: left;
+  position: relative;
+  padding: 0 12px 0 0;
+}
+.icon-box-title h2 {
+  font-size: 22px;
+  line-height: 32px;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+.icon-box-description p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #555555;
+  font-weight: 400;
+  font-family: "Mulish";
+}
+/* ======================  Service section Css Start here  =========================== */
+.service-section.option1 {
+  text-align: center;
+  padding: 45px 30px 41px 30px;
+  background: rgb(181, 154, 109, 0.7);
+  position: relative;
+  z-index: 1;
+  transition:0.5s;
+}
+.service-section.option1::before {
+  background: rgb(181, 154, 109, 0.7);
+  position: absolute;
+  z-index: -1;
+  transition:0.5s;
+  height:0;
+  width:100%;
+  bottom:0;
+  left:0;
+  content:"";
+}
+.service-section.option1:hover::before {
+    height:100%; 
+}
+.service-box2 .service-section.option1 {
+  background: #b59a6d;
+}
+.service-box2 .service-section.option1 .service-icon-img img {
+  filter: brightness(1)invert(0);
+}
+.service-box2 .service-section.option1 .service-icon-img {
+  background: #fff;
+  border: 1px solid #fff;
+}
+.service-single-image {
+  line-height: 0;
+}
+.service-section.option1 .service-icon-img {
+  background: transparent;
+  height: 70px;
+  width: 70px;
+  line-height: 95px;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+  border: 1px solid #fff;
+  transition:0.5s;
+}
+.service-section.option1 .service-icon-img img {
+  filter: brightness(0)invert(1);
+  transition:0.5s;
+}
+.service-section.option1:hover .service-icon-img img {
+  filter: brightness(1)invert(0);
+}
+.service-section.option1:hover .service-icon-img {
+  background: #fff;
+  border: 1px solid #fff;
+}
+.service-section.option1 .service-title h1 {
+  margin: 0;
+  padding: 1px 0 8px 0;
+  font-size: 22px;
+  line-height: 50px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Noto Serif";
+  text-align: center;
+}
+.service-section.option1 .service-description p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fafafa;
+  font-weight: 400;
+  font-family: "Mulish";
+  text-align: center;
+}
+
+/*  service option 2 css Start here  */
+
+.service-section.option2 {
+  position: relative;
+  transition: 0.5s;
+  z-index: 2;
+}
+.service-section.option2 .service-number h5 {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Mulish";
+  border-radius: 5px 5px 0 0;
+  background: #b59a6d;
+  padding: 9px 0 9px 35px;
+  transition: 0.5s;
+  z-index: 1;
+  position: relative;
+}
+.service-section.option2 .service-number h5:before {
+  position: absolute;
+  content: "";
+  background: #b59a6d;
+  height: 35px;
+  width: 31px;
+  top: 6px;
+  right: -20px;
+  z-index: 1;
+  clip-path: polygon(0 0, 0 100%, 100% 50%);
+}
+.service-section.option2 .service-single-image {
+  display: none;
+}
+.service-section.option2 .service-text-content {
+  background: #fff;
+  padding: 23px 0 26px 35px;
+  position: relative;
+  transition: 0.5s;
+  z-index: 1;
+  border-radius: 5px;
+}
+.service-section.option2 .service-text-content:before {
+  position: absolute;
+  content: "";
+  background: #b59a6d;
+  height: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.5s;
+  border-radius: 0 0 5px 5px;
+}
+.service-section.option2:hover .service-text-content:before {
+  height: 100%;
+}
+.service-section.option2 .service-title h1 {
+  font-size: 20px;
+  line-height: 28px;
+  color: #1a1a1a;
+  font-weight: bold;
+  font-family: "Noto Serif";
+  transition: 0.5s;
+}
+.service-section.option2:hover .service-title h1 {
+  color: #fff;
+}
+.service-section.option2 .service-title h2 {
+  font-size: 16px;
+  line-height: 28px;
+  color: #b59a6d;
+  font-weight: 400;
+  font-family: "Mulish";
+  transition: 0.5s;
+  margin: 4px 0 7px 0;
+}
+.service-section.option2:hover .service-title h2 {
+  color: #fff;
+}
+.service-section.option2 .service-description p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #7a7a7a;
+  font-weight: 400;
+  font-family: "Mulish";
+  transition: 0.5s;
+}
+.service-section.option2:hover .service-description p {
+  color: #fff;
+}
+.service-section.option2:before {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  right: -84px;
+  top: 18px;
+  background: #b59a6d;
+  border-radius: 100%;
+  text-align: center;
+  margin: auto;
+}
+.service-section.option2:after {
+  position: absolute;
+  content: "";
+  height: 35px;
+  width: 35px;
+  top: 23px;
+  right: -114px;
+  background: #b59a6d;
+  opacity: 0.5;
+  border-radius: 100%;
+  z-index: -1;
+  margin: auto;
+  animation: inoutzoom 3s linear infinite;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  border: 2px solid #E6E0D6;
+}
+@keyframes inoutzoom {
+  0% {
+      transform: translate(-50%,-50%) scale(.4);
+      opacity: 1;
+      border-width: 3px
+  }
+  25% {
+      opacity: .7;
+      border-width: 2px
+  }
+  70% {
+      border-width: 1px
+  }
+  100% {
+      transform: translate(-50%,-50%) scale(1);
+      opacity: 0;
+      border-width: 1px
+  }
+}
+
+
+/* ======================
+	Form area custom css
+=========================*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  background: #B59A6D;
+  color: #fff;
+  width: 90%;
+  height: 55px;
+  line-height: 55px;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+}
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	border-color: #ccc #bbb #aaa;
+}
+button:active,
+button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+	border-color: #aaa #bbb #bbb;
+}
+select {
+	border: 1px solid #ccc;
+}
+textarea {
+	width: 100%;
+}
+/* ======================  Main Contact css start here  =========================== */
+.main-form-section input {
+  font-size: 16px;
+  height: 52px;
+  line-height: 52px;
+  padding: 0 0 0 15px;
+  border: 1px solid #ebebeb;
+  color: #7a7a7a !important;
+  font-weight: 400;
+  font-family: "Mulish";
+  margin: 0 0 30px 0;
+  border-radius: 5px;
+  width: 100%;
+}
+.main-form-section textarea {
+  height: 150px;
+  border: 1px solid #ebebeb;
+  margin: 0 0 30px 0;
+  border-radius: 5px;
+}
+.main-form-section .contact-button input {
+  height: 55px;
+  background: #B59A6D;
+  color: #fff !important;
+  width: 202px;
+  line-height: 55px;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  font-family: "Mulish";
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+}
+.main-form-section .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #b59a6d;
+}
+.main-form-section input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #b59a6d;
+}
+.main-form-section input::placeholder {
+  color: #b1b1b1 !important;
+  font-size: 16px;
+  font-family: "Mulish";
+}
+.main-form-section textarea::placeholder {
+  color: #b1b1b1 !important;
+  font-size: 16px;
+  font-family: "Mulish";
+}
+.main-form-section select {
+  font-size: 16px;
+  height: 52px;
+  line-height: 52px;
+  padding: 0 0 0 15px;
+  border: 1px solid #ebebeb;
+  color: #b1b1b1 !important;
+  font-weight: 400;
+  font-family: "Mulish";
+  margin: 0 0 30px 0;
+  border-radius: 5px;
+  width: 100%;
+  outline: 0;
+}
+.main-form-section select option {
+  font-size: 16px;
+  color: #1a1a1a;
+  font-weight: 400;
+  font-family: "Noto Serif";
+}
+.main-form-section select option:hover {
+  background: #B59A6D;
+  color: #fff;
+}
+.main-form-section select::placeholder {
+  color: #b1b1b1 !important;
+  font-size: 16px;
+  font-family: "Mulish";
+}
+.main-form-section .select:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #b59a6d;
+}
+p.footer-email label {
+  width: 80%;
+}
+p.footer-email label input {
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  padding: 0 0 0 15px;
+  border-radius: 5px;
+  background: transparent;
+  outline: 0;
+  border: 1px solid #818181;
+  margin: 0 0 30px 0;
+  color: #fff;
+  font-size: 16px;
+}
+.footer-email-button {
+  transition: 0.5s;
+}
+.footer-email-button input[type="submit"] {
+  background: #B59A6D;
+  color: #fff;
+  width: 80%;
+  height: 55px;
+  line-height: 53px;
+  padding: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.5s;
+  border: 1px solid transparent;
+}
+.footer-email-button input[type="submit"]:hover {
+  background: transparent;
+  border: 1px solid #818181;
+  letter-spacing: 2px;
+}
+
+/* ======================  Icon List Css Start here  =========================== */
+
+.list-section {
+  position: relative;
+  background: #b59a6d;
+  padding: 40px 40px 40px 40px;
+  display: inline-block;
+}
+ul.single-list-content li {
+  list-style: none;
+}
+
+/* ======================  Pricing Css Start here  =========================== */
+.pricing-section {
+  background: #b59a6d;
+  padding: 50px 0 50px 50px;
+  position: relative;
+  transition: 0.5s;
+  border-radius: 8px;
+}
+.pricing-title h1 {
+  font-size: 50px;
+  line-height: 65px;
+}
+ul.pricing-services-list li {
+  list-style: none;
+}
+
+/* ======================  team Member Css Start here  =========================== */
+
+.team-member-image {
+  line-height: 0;
+}
+.team-member-content {
+  background: #b59a6d;
+  padding: 35px 0 35px 25px;
+}
+ul.team-media-icon {
+  background: #b59a6d;
+}
+ul.team-media-icon li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+}
+.team-member-name h1 {
+  font-size: 30px;
+  line-height: 30px;
+  margin: 0;
+}
+.member-designation h3 {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+/* ======================  team Member Slide Css Start here  =========================== */
+
+.team-slide-section {
+  background: #b59a6d;
+  border-radius: 0 0 5px 5px;
+}
+ul.team-slide-media-icon li {
+  list-style: none;
+  display: inline-block;
+}
+.team-slide-member-designation p {
+  transition: 0.4s;
+  color: #1a1a1a;
+  font-size: 18px;
+  font-weight: 500;
+}
+.team-slide-member-name h1 {
+  font-size: 25px;
+  transition: 0.4s;
+  color: #1a1a1a;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+/* ======================  Testimonial Css Start here  =========================== */
+
+.testimonial-section.option1 .testimonial-single-content {
+  background: transparent;
+  transition:0.5s;
+}
+.testimonial-section.option1 .testimonial-img-desc-content {
+  padding: 54px 45px 58px 60px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  position: relative;
+  transition:0.5s;
+  z-index: 1;
+}
+.testimonial-section.option1 .testimonial-single-content:hover .testimonial-img-desc-content {
+  border: 1px solid #b59a6d;
+}
+.testimonial-section.option1 .testimonial-img-desc-content:before {
+  position: absolute;
+  content: "";
+  background: inherit;
+  height: 40px;
+  width: 40px;
+  bottom: -20px;
+  left: 75px;
+  margin: auto;
+  z-index: 1;
+  border: 1px solid #fff;
+  transform: rotate(-45deg);
+  display: inline-block;
+  transition: 0.5s;
+  clip-path: polygon(0 0, 41% 41%, 100% 100%, 0% 100%);
+}
+.testimonial-section.option1 .testimonial-single-content:hover .testimonial-img-desc-content:before {
+  border: 1px solid #b59a6d;
+}
+.testimonial-section.option1 .testimonial-image {
+  display: inline-block;
+  float: left;
+  margin: 0 30px 60px 0;
+}
+.testimonial-section.option1 .testimonial-image img {
+  height: 38px;
+  width: 40px;
+  display: inline-block;
+  position: relative;
+  top: 7px;
+}
+.testimonial-section.option1 .about-author {
+  padding: 40px 0 0 0;
+}
+.testimonial-section.option1 .about-author h1 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #1a1a1a;
+  font-weight: 600;
+  font-family: "Poppins";
+  transition:0.4s;
+}
+.testimonial-section.option1 .testimonial-single-content:hover .about-author h1 {
+  color: #b59a6d;
+}
+.testimonial-section.option1 .about-author h3 {
+  font-size: 16px;
+  line-height: 26px;
+  color: #7a7a7a;
+  font-weight: 400;
+  font-family: "Mulish";
+}
+.testimonial-section.option1 .testi-description p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #7a7a7a;
+  font-weight: 400;
+  font-family: "Mulish";
+  position: relative;
+  z-index: 1;
+  transition:0.5s;
+}
+.testimonial-section.option1 .author-image {
+  text-align: center;
+  padding: 35px 15px 0 60px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  float: left;
+}
+.testimonial-section.option1 .author-image img {
+  display: inline-block;
+  border: 3px solid #fff;
+  border-radius:50%;
+  transition:0.5s;
+  position: relative;
+  z-index: 1;
+}
+.testimonial-section.option1 .testimonial-single-content:hover .author-image img {
+  border: 3px solid #b59a6d;
+}
+/* ======================  Work System Css Start here  =========================== */
+.work-system-section {
+  background: #b59a6d;
+  border-radius: 10px;
+  padding: 30px 0 30px 0;
+  text-align: center;
+  transition: 0.5s;
+}
+.working-title h1 {
+  font-size: 25px;
+}
+.work-system-single-img {
+  line-height: 0;
+}
+.work-system-numbering h3 {
+  padding: 0 0 20px 0;
+  font-size: 20px;
+}
+
+/* ======================  Last Post Css Start here  =========================== */
+.single-last-post {
+  background: #b59a6d;
+  padding: 25px 0 40px 30px;
+  margin: 0 0 20px 0;
+  border-radius: 10px;
+  position: relative;
+}
+.last-post-content {
+  display: inline-block;
+  padding: 0 0 0 25px;
+}
+.last-post-img {
+  display: inline-block;
+  float: left;
+}
+.last-post-img img {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+}
+.last-post-title h1 a {
+  color: #1a1a1a;
+  font-size: 20px;
+  display: inline-block;
+}
+.last-post-time span {
+  color: #7a7a7a;
+  font-size: 16px;
+}
+
+/* ======================  Blog Post Css Start here  =========================== */
+
+.single-blog-post-content {
+    display: flex;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin: 0 15px 0 15px;
+}
+.single-blog-post-content:hover {
+  border: 1px solid #b59a6d;
+}
+.single-blog-post-content .blog-post-text-content {
+  background: transparent;
+  padding: 15px 0 0 30px;
+  border-radius: 0;
+  position: relative;
+}
+.single-blog-post-content .blog-post-img {
+  position: relative;
+  line-height: 0;
+}
+.single-blog-post-content .blog-post-img img {
+  height: 208px;
+  width: 260px;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+}
+.single-blog-post-content .blog-post-category ul.post-categories li {
+  list-style: none;
+}
+.single-blog-post-content ul.post-categories li a {
+  position: absolute;
+  top: 15px;
+  color: #fff;
+  left: 15px;
+  background: #B59A6D;
+  padding: 3px 15px;
+  font-size: 16px;
+  line-height: 26px;
+  border-radius: 5px;
+}
+.single-blog-post-content .blog-author-admin a {
+  text-transform: capitalize;
+  padding: 0 15px 0 0;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1a1a1a;
+  font-weight: 400;
+  font-family: "Mulish";
+}
+.single-blog-post-content .blog-post-title h1 a {
+  font-size: 20px;
+  color: #1a1a1a;
+  display: inline-block;
+  line-height: 30px;
+  padding: 15px 0 23px 0;
+}
+.single-blog-post-content .blog-author-admin {
+  display: inline-block;
+}
+.single-blog-post-content .blog-post-time {
+  display: inline-block;
+}
+.single-blog-post-content .blog-post-time span {
+  display: inline-block;
+  padding: 0;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1a1a1a;
+  font-weight: 400;
+  font-family: "Mulish";
+}
+.single-blog-post-content .blog-post-button a {
+  display: inline-block;
+  transition: 0.5s;
+  font-size: 16px;
+  line-height: 26px;
+  color: #b59a6d;
+  font-weight: 400;
+  font-family: "Mulish";
+  border: 1px solid #b59a6b;
+  border-radius: 5px;
+  padding: 8px 24px;
+  position: relative;
+  z-index: 1;
+}
+.single-blog-post-content .blog-post-button a:hover{
+  color: #fff;
+}
+.single-blog-post-content .blog-post-button a:before {
+  background: #b59a6b;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  z-index: -1;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+.single-blog-post-content .blog-post-button a:hover:before {
+  width: 100%;
+}
+.single-blog-post-content .blog-post-button a i {
+  transition: 0.5s;
+  font-size: 15px;
+  color: #b59a6d;
+  position: relative;
+  top: 1px;
+}
+.single-blog-post-content .blog-post-button a:hover i{
+  color: #fff;
+}
+
+/*==========        Portfolio css          ==========*/
+.portfolio-category-tab-menu ul {
+	padding: 0;
+	text-align: center;
+    margin-bottom: 35px;
+    margin-left: 0;
+}
+.portfolio-category-tab-menu ul li {
+    background: transparent;
+    font-size: 16px;
+    line-height: 1;
+    transition: 0.5s;
+    cursor: pointer;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    margin: 0 3px;
+    margin-bottom: 7px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #b59a6d;
+    color: #b59a6d;
+}
+.portfolio-category-tab-menu li:hover {
+	color: #fff;
+	background: #b59a6d;
+}
+.portfolio-category-tab-menu li.active_category_menu {
+	color: #fff;
+	background: #b59a6d;
+}
+.single-portfolio {
+  position: relative;
+  margin: 0 0 30px 0;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.portfolio-thumb {
+    line-height: 0;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.portfolio-thumb a img {
+  height: 225px;
+}
+.portfolio-text-content {
+    background: rgb(181, 153, 109, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 250px;
+    text-align: center;
+    padding: 89px 0 0 0;
+	 transition:0.5s;
+   border-radius: 5px;
+}
+.single-portfolio:hover .portfolio-text-content {
+    top: 0;
+}
+.portfolio-text-content:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: transparent;
+    border: 1px solid #fff;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    z-index: -1;
+	transition:0.5s;
+}
+.portfolio-text-content a {
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Noto Serif";
+    text-align: center;
+}
+.portfolio-text-content a:hover {
+  color: #ffffff;
+}
+.portfolio-title h1 {
+    line-height: 30px;
+    padding: 8px 0 0 0;
+}
+.portfolio-title h1 a {
+	font-size: 24px;
+	line-height: 28px;
+	color: #ffffff;
+    font-weight: 500;
+	font-family: "Noto Serif";
+	text-align: center;
+}
+
+/* ======================  elemento advince Css Start here  =========================== */
+
+.elementor-progress-percentage {
+    padding-inline-end: 0 !important;
+    padding: 0;
+    position: relative;
+    top: -30px;
+    color: #1A1A1A;
+}
+.resume-section{
+  position: relative;
+  z-index: 1;
+}
+.resume-section:before {
+  content: "";
+  position: absolute;
+  left: -3px;
+  top: 120px;
+  height: 76.50%;
+  width: 5px;
+  z-index: 1;
+  transition: 0.4s;
+  border-radius: 2px;
+  background: #E6E0D6;
+}
+.resume-section .service-section.option2 .service-number h5:before {
+  left: -20px;
+  clip-path: polygon(0 50%, 100% 100%, 100% 0);
+}
+.resume-section .service-section.option2:before {
+  left: -86px;
+  right:inherit;
+}
+.resume-section .service-section.option2:after {
+  left: -81px;
+  right:inherit;
+}
+.education-button .single-button.option3 .button-content a {
+  width: 100%;
+}
